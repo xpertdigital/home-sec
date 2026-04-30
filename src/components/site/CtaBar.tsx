@@ -11,15 +11,15 @@ export function CtaBar() {
           <span className="font-display font-semibold">Watch Our Process</span>
         </button>
         <div>
-          <h2 className="font-display text-3xl md:text-4xl font-bold">Lets Make Your House Secure</h2>
-          <p className="mt-3 text-primary-foreground/80">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h2 className="font-display text-3xl md:text-4xl font-bold">Ready To Make Your Home Secure?</h2>
+          <p className="mt-3 text-primary-foreground/80">Book a free on-site survey and get a tailored quote within 24 hours.</p>
         </div>
         <div className="flex flex-col gap-3 lg:items-end">
           <div className="space-y-2">
-            <div className="flex items-center gap-2 text-sm"><Check className="h-4 w-4 text-cream" /> Fast And Easy Proccess</div>
-            <div className="flex items-center gap-2 text-sm"><Check className="h-4 w-4 text-cream" /> Online Booking For Easy</div>
+            <div className="flex items-center gap-2 text-sm"><Check className="h-4 w-4 text-cream" /> Free Home Survey</div>
+            <div className="flex items-center gap-2 text-sm"><Check className="h-4 w-4 text-cream" /> Same-Week Installation</div>
           </div>
-          <a href="#" className="btn-cream">Get a Quotation</a>
+          <a href="/contact" className="btn-cream">Get a Free Quote</a>
         </div>
       </div>
     </section>
