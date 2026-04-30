@@ -9,7 +9,6 @@ import { WhyUs } from "@/components/site/WhyUs";
 import { Steps } from "@/components/site/Steps";
 import { Portfolio } from "@/components/site/Portfolio";
 import { CtaBar } from "@/components/site/CtaBar";
-import { Pricing } from "@/components/site/Pricing";
 import { Testimonials } from "@/components/site/Testimonials";
 import { Blog } from "@/components/site/Blog";
 import { Footer } from "@/components/site/Footer";
@@ -39,7 +38,6 @@ function Home() {
       <Steps />
       <Portfolio />
       <CtaBar />
-      <Pricing />
       <Testimonials />
       <Blog />
       <Footer />
