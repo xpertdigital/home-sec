@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const featured = [
   { img: b1, day: 12, month: "Apr", title: "Fingerprint Door Locks: Are They Really Safer?", excerpt: "We break down how biometric locks work and where they fit in a layered home security plan." },
-  { img: b2, day: 04, month: "Apr", title: "Facial Recognition At Your Front Door", excerpt: "What modern AI cameras can — and cannot — do, and how to set them up without invading privacy." },
+  { img: b2, day: 4, month: "Apr", title: "Facial Recognition At Your Front Door", excerpt: "What modern AI cameras can — and cannot — do, and how to set them up without invading privacy." },
 ];
 
 const recent = [
