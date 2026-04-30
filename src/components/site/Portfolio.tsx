@@ -15,10 +15,10 @@ export function Portfolio() {
       <div className="container-x">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <div className="max-w-2xl">
-            <span className="eyebrow">Our Recent Working</span>
-            <h2 className="mt-3 section-title">We Have Great Work Portfolio With Our Clients</h2>
+            <span className="eyebrow">Recent Installations</span>
+            <h2 className="mt-3 section-title">Real Homes, Real Security Outcomes</h2>
           </div>
-          <a href="#" className="btn-outline">View All Portfolio</a>
+          <a href="/gallery" className="btn-outline">View Full Gallery</a>
         </div>
         <div className="mt-12 grid md:grid-cols-3 gap-6">
           {items.map((it) => (
@@ -29,7 +29,7 @@ export function Portfolio() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h3 className="font-display text-lg font-bold">{it.title}</h3>
-                    <p className="text-sm text-primary-foreground/80 mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p className="text-sm text-primary-foreground/80 mt-1">Completed in San Diego, 2025</p>
                   </div>
                   <span className="shrink-0 grid place-items-center h-11 w-11 rounded-full bg-cream text-primary group-hover:rotate-45 transition-transform">
                     <ArrowUpRight className="h-5 w-5" />

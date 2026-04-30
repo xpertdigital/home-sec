@@ -1,10 +1,10 @@
 import { ShieldCheck, KeyRound, Cctv, BellRing, ArrowRight } from "lucide-react";
 
 const services = [
-  { icon: ShieldCheck, title: "Smart House Security Integration", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { icon: KeyRound, title: "Smart Door Keyless System", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { icon: Cctv, title: "Smart CCTV Online Integration", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
-  { icon: BellRing, title: "Smart House Alarm System", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
+  { icon: ShieldCheck, title: "Smart Home Security Integration", desc: "Unify alarms, cameras and locks into one easy-to-use app you can control from anywhere." },
+  { icon: KeyRound, title: "Keyless Smart Door Locks", desc: "Replace fragile keys with PIN, fingerprint and phone unlock for every door in your home." },
+  { icon: Cctv, title: "HD CCTV With Cloud Recording", desc: "4K cameras with night vision, motion alerts and 30-day encrypted cloud storage." },
+  { icon: BellRing, title: "24/7 Monitored Alarm Systems", desc: "Wireless sensors backed by a real monitoring team that calls the moment something happens." },
 ];
 
 export function Services() {
@@ -13,7 +13,7 @@ export function Services() {
       <div className="container-x">
         <div className="max-w-3xl">
           <span className="eyebrow">What We Can Do</span>
-          <h2 className="mt-3 section-title">House Security Instalation Service We Can Provided</h2>
+          <h2 className="mt-3 section-title">Complete Home Security Installation Services</h2>
         </div>
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map(({ icon: Icon, title, desc }) => (

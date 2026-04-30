@@ -24,10 +24,10 @@ export function Hero() {
         <div>
           <span className="text-xs font-semibold uppercase tracking-[0.25em] text-cream">House Secure Installation</span>
           <h1 className="mt-5 font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05]">
-            Give The Best House Secure For Your Own Family
+            Smarter Home Security For The People You Love
           </h1>
           <p className="mt-6 text-base md:text-lg text-primary-foreground/85 max-w-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            From smart alarms and 24/7 CCTV monitoring to keyless entry and full home automation, our certified technicians design and install security systems built around your home and family.
           </p>
 
           <div className="mt-10 max-w-md space-y-6">
@@ -36,7 +36,7 @@ export function Hero() {
           </div>
 
           <div className="mt-10 grid sm:grid-cols-2 gap-3 max-w-md">
-            {["Built From Future Technology", "New Programming Language", "Built From Future Technology", "New Programming Language"].map((t, i) => (
+            {["Certified Installers", "Licensed & Insured", "24/7 Monitoring", "Lifetime Support"].map((t, i) => (
               <div key={i} className="flex items-center gap-2 text-sm">
                 <Check className="h-4 w-4 text-cream" />
                 <span>{t}</span>
@@ -47,8 +47,8 @@ export function Hero() {
 
         {/* Quote form card */}
         <div className="lg:justify-self-end w-full max-w-md bg-primary-dark/80 backdrop-blur-sm rounded-xl p-7 ring-1 ring-white/10">
-          <h3 className="font-display text-2xl font-bold">Lets Get Quotation</h3>
-          <p className="text-sm text-primary-foreground/75 mt-2">Fill this form to get quotation service.</p>
+          <h3 className="font-display text-2xl font-bold">Get a Free Quote</h3>
+          <p className="text-sm text-primary-foreground/75 mt-2">Tell us about your home and we'll send a tailored quote within 24 hours.</p>
           <form className="mt-6 grid grid-cols-2 gap-4">
             {[
               { label: "Your Name", placeholder: "Fullname" },

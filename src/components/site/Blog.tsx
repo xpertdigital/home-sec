@@ -4,14 +4,14 @@ import b3 from "@/assets/blog-3.jpg";
 import { ArrowRight } from "lucide-react";
 
 const featured = [
-  { img: b1, day: 31, month: "May", title: "Smart Installation Finger House" },
-  { img: b2, day: 31, month: "May", title: "House Smart Recognition" },
+  { img: b1, day: 12, month: "Apr", title: "Fingerprint Door Locks: Are They Really Safer?", excerpt: "We break down how biometric locks work and where they fit in a layered home security plan." },
+  { img: b2, day: 4, month: "Apr", title: "Facial Recognition At Your Front Door", excerpt: "What modern AI cameras can — and cannot — do, and how to set them up without invading privacy." },
 ];
 
 const recent = [
-  { img: b3, date: "May 31, 2022", title: "Tips Security House System" },
-  { img: b1, date: "May 31, 2022", title: "Smart House Install Flow" },
-  { img: b2, date: "May 31, 2022", title: "Minimize The Fire House" },
+  { img: b3, date: "Mar 28, 2026", title: "10 Quick Wins To Secure Your House This Weekend" },
+  { img: b1, date: "Mar 18, 2026", title: "Choosing Between Wired And Wireless Alarms" },
+  { img: b2, date: "Mar 09, 2026", title: "How To Reduce False Alarms In Smart Homes" },
 ];
 
 export function Blog() {
@@ -19,8 +19,8 @@ export function Blog() {
     <section className="py-20 lg:py-28">
       <div className="container-x">
         <div className="max-w-3xl">
-          <span className="eyebrow">Blog Post</span>
-          <h2 className="mt-3 section-title">Read Our Tips & Trick For Secure Your Own House</h2>
+          <span className="eyebrow">From The Blog</span>
+          <h2 className="mt-3 section-title">Tips, Guides & Insights To Keep Your Home Safer</h2>
         </div>
 
         <div className="mt-12 grid lg:grid-cols-2 gap-6">
@@ -35,7 +35,7 @@ export function Blog() {
               </div>
               <div className="p-6">
                 <h3 className="font-display text-xl font-bold">{p.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <p className="mt-2 text-sm text-muted-foreground">{p.excerpt}</p>
                 <a href="#" className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-primary">Learn more <ArrowRight className="h-4 w-4" /></a>
               </div>
             </article>

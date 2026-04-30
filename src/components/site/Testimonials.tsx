@@ -3,9 +3,9 @@ import avatar from "@/assets/avatar-1.jpg";
 import { Star, Quote } from "lucide-react";
 
 const testimonials = [
-  { name: "John Doe", role: "House Owner", text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam." },
-  { name: "Sarah K.", role: "House Owner", text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam." },
-  { name: "Mike T.", role: "House Owner", text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam." },
+  { name: "Jonathan Pierce", role: "Homeowner, La Jolla", text: "The HouseSec crew installed our cameras, alarm and smart locks in a single afternoon. Everything works perfectly through one app and the team walked us through every detail." },
+  { name: "Sarah Kowalski", role: "Homeowner, Carlsbad", text: "Quote was honest, the install was clean, and they followed up a week later to make sure the system was tuned. Best experience I've had with a contractor in years." },
+  { name: "Mike Tanaka", role: "Homeowner, Coronado", text: "I had three quotes — HouseSec was the only one who actually walked the property, asked smart questions and recommended only what we needed. Highly recommend." },
 ];
 
 export function Testimonials() {
@@ -18,13 +18,13 @@ export function Testimonials() {
             <div className="flex items-center gap-1 text-cream">
               {Array.from({ length: 5 }).map((_, i) => <Star key={i} className="h-4 w-4 fill-current" />)}
             </div>
-            <div className="mt-2 font-display font-bold">Great Reviews On Google</div>
-            <div className="text-xs text-primary-foreground/80">Have rate 5 stars on Google Business</div>
+            <div className="mt-2 font-display font-bold">5-Star Reviews On Google</div>
+            <div className="text-xs text-primary-foreground/80">Rated 4.9/5 across 600+ verified customers</div>
           </div>
         </div>
         <div className="lg:col-span-3">
-          <span className="eyebrow">Client Feedbacks</span>
-          <h2 className="mt-3 section-title">Lets Know What Our Clients Give The Best Feedback For Our Services Provided</h2>
+          <span className="eyebrow">Client Stories</span>
+          <h2 className="mt-3 section-title">Trusted By Families Across Southern California</h2>
 
           <div className="mt-10 space-y-5">
             {testimonials.map((t, i) => (
