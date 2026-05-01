@@ -25,6 +25,9 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "HouseSec — Smart House Security Installation" },
       { property: "og:description", content: "15+ years installing smart alarms, CCTV, keyless doors and integrated home security systems." },
     ],
+    links: [
+      { rel: "preload", as: "image", href: heroImg, fetchPriority: "high" },
+    ],
   }),
   component: Home,
 });
