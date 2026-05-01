@@ -43,6 +43,8 @@ export const Route = createRootRoute({
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/589ae676-e80c-4132-a6d7-a03b341c241c/id-preview-28cffbe9--0301b1dc-f901-4269-a9a4-6bf236a56bc1.lovable.app-1777542699975.png" },
     ],
     links: [
+      { rel: "preconnect", href: "https://cdn.gpteng.co", crossOrigin: "anonymous" },
+      { rel: "dns-prefetch", href: "https://cdn.gpteng.co" },
       {
         rel: "stylesheet",
         href: appCss,
