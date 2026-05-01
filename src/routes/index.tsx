@@ -3,6 +3,7 @@ import { lazy, Suspense } from "react";
 import { TopBar } from "@/components/site/TopBar";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
+import heroImg from "@/assets/hero-security.jpg";
 
 // Defer below-the-fold sections to reduce initial JS payload.
 const Services = lazy(() => import("@/components/site/Services").then(m => ({ default: m.Services })));
