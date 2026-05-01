@@ -18,7 +18,17 @@ function ProgressBar({ label, value }: { label: string; value: number }) {
 export function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <img src={heroImg} alt="Person using a smart home security app on phone" className="absolute inset-0 h-full w-full object-cover" width={1536} height={1024} fetchPriority="high" decoding="async" />
+      <img
+        src={heroImg}
+        alt="Person using a smart home security app on phone"
+        className="absolute inset-0 h-full w-full object-cover"
+        width={1536}
+        height={1024}
+        fetchPriority="high"
+        {...({ fetchpriority: "high" } as any)}
+        decoding="async"
+        loading="eager"
+      />
       <div className="absolute inset-0" style={{ background: "var(--hero-overlay)" }} />
       <div className="container-x relative grid lg:grid-cols-2 gap-12 py-20 lg:py-28 text-primary-foreground">
         <div>
