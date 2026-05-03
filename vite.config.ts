@@ -1,9 +1,9 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
-
+// vite.config.ts
 export default defineConfig({
-  tanstackStart: {
-    spa: {
-      enabled: true,
-    },
-  },
-});
+  plugins: [
+    tanstackStart({
+      spa: {
+        enabled: true, // This is the key setting for Cloudflare Pages
+      },
+    }),
+  ],
