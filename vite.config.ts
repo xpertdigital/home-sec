@@ -10,7 +10,8 @@ export default defineConfig({
     tanstackStart({
       spa: {
         enabled: true
-      },
-    }),
-  ],
+      }
+    })
+  ]
 });
+// end of file
