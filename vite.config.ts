@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart({
       spa: {
-        enabled: true,
+        enabled: true
       },
     }),
   ],
