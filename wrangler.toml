@@ -1,10 +1,7 @@
 name = "home-sec"
-compatibility_date = "2024-04-01"
-
-[site]
-bucket = "dist/client"
+pages_build_output_dir = "dist/client"
 
 [[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/index.html"
+  status = 200
