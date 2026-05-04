@@ -1,18 +1,9 @@
-import { defineConfig } from "vite";
-import { tanstackStart } from "@tanstack/react-start/plugin/vite";
-import viteTsConfigPaths from "vite-tsconfig-paths";
-import tailwindcss from "@tailwindcss/vite";
+// app.config.ts
+import { defineConfig } from '@tanstack/start/config'
+import { cloudflareAdapter } from '@tanstack/start-adapter-cloudflare'
 
-const config = defineConfig({
-  plugins: [
-    viteTsConfigPaths({ projects: ["./tsconfig.json"] }),
-    tailwindcss(),
-    tanstackStart({
-      spa: {
-        enabled: true
-      }
-    })
-  ]
-});
-
-export default config;
+export default defineConfig({
+  server: {
+    preset: 'cloudflare-pages',
+  },
+})
