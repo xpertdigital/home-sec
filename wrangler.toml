@@ -1,0 +1,7 @@
+name = "home-sec"
+compatibility_date = "2024-04-01"
+pages_build_output_dir = "dist/client"
+
+[[pages_config.routes]]
+pattern = "/*"
+script = "index.html"
