@@ -1,7 +1,2 @@
 name = "home-sec"
 pages_build_output_dir = "dist/client"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
